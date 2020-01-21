@@ -1,10 +1,10 @@
 //@flow
 
 import React from "react";
-import Carousel from "./components/Carousel";
+import CarouselExample from "./components/examples";
 
 function App() {
-  return <Carousel />;
+  return <CarouselExample />;
 }
 
 export default App;

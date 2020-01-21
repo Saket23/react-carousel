@@ -13,20 +13,22 @@ export const Container = styled.div`
   position: relative;
 `;
 
-export const BackButton = styled.div`
+export const BackButton = styled.button`
   position: absolute;
   top: 50%;
   left: 5px;
   border: 1px solid black;
   border-radius: 50%;
   padding: 5px;
+  z-index: 2;
 `;
 
-export const NextButton = styled.div`
+export const NextButton = styled.button`
   position: absolute;
   top: 50%;
   right: 5px;
   border: 1px solid black;
   border-radius: 50%;
   padding: 5px;
+  z-index: 2;
 `;

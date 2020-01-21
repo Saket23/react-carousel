@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   display: flex;
   transform: ${props => `translateX(${props.position * -props.distance}px)`};
-  transition: transform 2s;
+  transition: transform 3s;
 `;
 
 export const Container = styled.div`
